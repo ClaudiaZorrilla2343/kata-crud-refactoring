@@ -1,0 +1,57 @@
+// Global Styles
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: $font_family;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: $background_color_primary;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: $text_color_primary;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: $font_size_title;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: $font_size_subtitle;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: $font_size_tasks;
+  font-weight: 500;
+}
+
+p {
+  color: $text_color_secondary;
+  font-size: $font_size_text;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  color: $text_color_secondary;
+  cursor: pointer;
+  font-size: $font_size_button;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+}
